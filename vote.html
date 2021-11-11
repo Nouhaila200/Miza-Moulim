@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Des Etoiles</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+        
+    <div id="container23">
+        <div class="contenu" onclick="rate()">
+        <div class="rating-wrapper">
+            <input onclick="rate()" type="radio" name="rating" id="star-1" ><label for="star-1"></label>
+            <input onclick="rate()" type="radio" name="rating" id="star-2" ><label for="star-2"></label>
+            <input onclick="rate()" type="radio" name="rating" id="star-3" ><label for="star-3"></label>
+            <input type="radio" name="rating" id="star-4" ><label for="star-4"></label>
+            <input type="radio" name="rating" id="star-5" ><label for="star-5"></label>
+           <span class="result"></span>
+            
+        </div>
+    </div>
+    
+    </div>
+   
+           
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        
+ <script>
+   
+function rate(){
+  swal("Merci", "vote enregistré !", "success");}
+ </script>
+
+  
+</body>
+</html>

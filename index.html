@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIZA SAFI</title>
+    <link rel="shortcut icon" href="img\miza.png">
+    <link rel="stylesheet" href="css\style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+ 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img src="img\ei_1627738806272-removebg-preview.png" id="logo" >
+                <div class="hamburger-menu" onpointerover="navbar()">
+                    <div class="bar"></div>
+                    
+                </div>
+            </div>
+        </nav>
+           
+        <nav>
+            
+            <ul id="nou">
+                <li id="nouh"><a href="#cont">ACCEUIL</a></li>
+                <li><a href="#nouhaila">NOUS</a></li>
+                <li><a href="#sect" >PRODUITS</a></li>
+                <li><a href="#review">AVIS</a></li>
+                <li><a href="#cont">SERVICES</a></li>
+            </ul>
+        
+            <img src="img/cancel.png" id="close" ondblclick="navbar()">
+        </nav>
+          
+    </header>
+    <h4 class="titre">
+       <p>Discover</p>
+         <p>Our</p>
+       <p>Shop</p>
+   </h4>
+   <section class="section1">
+    <div class="shadow"></div>
+
+    <div class="container" id="nouhaila">
+        <div class="content opacity">
+            <h3 class="title">
+                Qui sommes nous ?
+                <div class="border"></div>
+            </h3>
+            <p class="text">Filiale du Groupe Moulim<a href="https://www.mizaequipement.com/default/qui-sommes-nous"><span id="moulim"> Miza </span></a> est une enseigne Spécialisée dans la vente d’appareils électroménagers, Miza se base sur le concept de distribution multimarque, avec, comme point fort, les plus bas prix du marché, le plus large choix et les offres les plus attrayantes</p>
+        </div>
+
+        <div class="imgContainer opacity">
+            <img src="img\ei_1627738806272-removebg-preview.png">
+        </div>
+    </div>
+</section>
+<section id="sect"> 
+    
+    <div class="box"> 
+       <span style="--i:1;">
+         <img src="img\computer-laptop-macbook-night.jpg" >
+          <h1>INFORMATIQUE</h1>
+       </span>
+       <span style="--i:2;">
+          <img src="img\xbox-elite-wireless-controller_1920.0.0.jpg">
+          <h1>JEUX</h1>
+       </span>
+       <span style="--i:3;">
+         <img src="img\35678.jpg">
+         <h1>MOTO</h1>
+        </span>
+       <span style="--i:4;">
+        <img src="img\black_barondude6.jpg">
+        <h1>Confort Maison</h1>
+       </span>
+       <span style="--i:5;">
+        <img src="img\iphone-12-pro-2020-apple.jpg">
+        <h1>MULTILEDIA</h1>
+       </span>
+       <span style="--i:6;">
+        <img src="img\istockphoto-1080323518-170667a.jpg">
+        <h1>ACCESSOIRES</h1>
+    </span>
+    </div>
+</section>
+<!------chat-->
+<div class="chat-bar-collapsible" onpointerleave="openForm()" >
+    <button id="chat-button" type="button"  class="collapsible"     >chat with us
+        <img src="img\commentaires.png" id="chat-icon"   >
+
+
+    </button>
+<div class="content1" id="content1"  >
+    <img src="img\HluF7g.jpg" class="back">
+    <div class="full-chat-block" id="full-chat-block">
+        <!------message container-->
+        <div class="outer-container" id="outer-container"  >
+            <div class="chat-container"></div>
+             <!-----message-->
+             <div id="chatbox">
+                 <h5 id="chat-timestamp" ></h5>
+                 <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+             </div>
+             <!------User input box-->
+            <div class="chat-bar-input-block"  > 
+                 <div id="userInput">
+                     <input id="textInput" class="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message">
+                 </div>
+                <div class="chat-bar-icons">
+                    <img src="img\thumb-up.png" class="chat-icon" onclick="like()">
+                  
+                    
+                </div>
+        </div>
+        <div id="chat-bar-bottom"></div>
+
+
+    </div>
+
+</div>
+</div>
+   
+ 
+</div>
+
+
+    
+   
+
+
+
+
+    
+    
+ 
+  <section class="review" id="review">
+
+    <h1 class="heading"> Avis <span>Client</span></h1>
+
+    <div class="box-container">
+
+        <div class="box1">
+            <img src="img\quote-img.png" alt="" class="quote">
+            <p>Très bon service alhamdolilah.
+               bonne continuation, vous etes les meilleurs.A ce jour Tout est presque bien bon prix et service après-vente est meilleur.Bravo Miza Équipement </p>
+            <img src="img\pic-1.png"class="user1"alt="">
+            <h3>SAMI farid</h3>
+            <div class="stars">
+                <img src="img\star.png" class="star">
+                <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+            </div>
+        </div>
+        <div class="box1">
+            <img src="img\quote-img.png" alt="" class="quote">
+            <p>J'avais acheté pas mal de produits chez MIZA ,la serviabilite et la qualite ont ete toujours 
+                presentes a chaque fois je visite MIZA .je recommande fortement ce magasin .</p>
+            <img src="img\pic-2.png" class="user1" alt="">
+            <h3>CHADI Mouhsine</h3>
+            <div class="stars">
+                <img src="img\star.png" class="star">
+                <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+               <img src="img\emojipng.com-41520.png" class="star">
+               
+               <img src="img\emojipng.com-41520.png" class="star">
+            </div>
+        </div>
+        <div class="box1">
+            <img src="img\quote-img.png" alt="" class="quote">
+            <p>Tous les achats que j'avais effectue cher MIZA m'ont vraiment satisfait.Les prix sont totalement convenables. </p>
+            <img src="img\pic-3.png" class="user1" alt="">
+            <h3>ALAMI Hamid</h3>
+            <div class="stars">
+                <img src="img\star.png" class="star">
+                <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+               <img src="img\star.png" class="star">
+               
+               <img src="img\emojipng.com-41520.png" class="star">
+               
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+ <section class="cont" id="cont">
+       <div class="ca">
+           <div class="conten">
+               <h1>01</h1>
+               <h3>Le meilleur prix </h3>
+               <p>Miza propose le meilleur rapport qualité/prix, avec des promotions en continu, tout en s’engageant sur les prix pratiqués.</p>
+                <a href="https://www.mizaequipement.com/default/qui-sommes-nous">Lire plus...</a>
+            </div>
+       </div>
+       <div class="ca">
+        <div class="conten">
+            <h1>02</h1>
+            <h3>La commodité d’achat</h3>
+            <p>cet engagement se traduit par des facilités de paiement, le test des produits sur place, une livraison gratuite,…</p>
+             <a href="https://www.mizaequipement.com/default/qui-sommes-nous">Lire plus...</a>
+         </div>
+    </div>
+    <div class="ca">
+        <div class="conten">
+            <h1>03</h1>
+            <h3>La sérénité </h3>
+            <p> l’achat se fait dans un esprit de tranquillité, avec des produits garantis et un engagement clair sur les Services Après Vente….</p>
+             <a href="https://www.mizaequipement.com/default/qui-sommes-nous">Lire plus...</a>
+         </div>
+    </div>
+
+</section>
+
+<div class="clock1" id="clock1">
+ <div class="clock">
+    
+  <div id="hr">
+    <div class="hr" ></div>
+  </div> 
+  <div id="mn">
+    <div class="mn" ></div>
+   </div>
+  <div id="sc">
+    <div class="sc" ></div>
+   </div>
+    
+  
+   
+   
+
+ </div>
+ <div class="center">
+    <h1 style="color: #37e718;">HORAIRE D'OUVERTURE</h1>
+    <p>Tous nos magasins sont ouverts de <strong> 9H</strong> A <strong>22H.</strong></p>
+    <p>Trouvez l'adresse de notre magasin en visitant la rubrique <a href="#cc">"Contact Info"</a>.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="main00">
+        <div class="aboutus">
+            <h2>ABOUT US</h2>
+            <p>Miza est une enseigne orientée 100% Client, qui s’engage sur le meilleur service tout au long de la relation Client: qualité d’accueil, conseil à l’achat par des conseillers commerciaux Miza, financement de l’achat, livraison et installation gratuites, un Service Après Vente (SAV) 100% garanti.</p>
+        
+        <ul class="sci">
+      
+            <li><a href="https://www.facebook.com/mizaequipement/"><img src="img\facebook-social-logo.png" alt=""></a></li>
+            
+            <li><a href="https://twitter.com/EquipementMiza"><img src="img\twitter.png" alt=""></a></li>
+            
+            <li><a href="https://www.youtube.com/channel/UCpboqQJd3G98KRtm5_LRJ_Q"><img src="img\youtube.png" alt=""></a></li>
+            
+            <li><a href="https://www.instagram.com/mizaequipement2020/"><img src="img\instagram.png" alt=""></a></li>
+
+        </ul>
+    </div>
+    <div class="quicklinks">
+        <h2>Quicklinks</h2>
+        <ul class="sci1">
+            <li><a href="#nouhaila">About</a></li>
+            <li><a href="https://www.mizaequipement.com/default/qui-sommes-nous#">FAQ</a></li>
+            <li><a href="#clock1">Horaires d'Ouverture</a></li>
+            <li><a href="https://www.mizaequipement.com/default/qui-sommes-nous#">Aide</a></li>
+            <li><a href="https://www.mizaequipement.com/default/qui-sommes-nous#">Conditions d'Utilisation</a></li>
+            <li><a href="contact.html">Contactez-Nous</a></li>
+            <li><a href="vote.html">Voter</a></li>
+        </ul>
+    </div>
+    <div class="contact000" id="cc">
+      <h2>Contact Info</h2>
+      <ul class="info">
+           <li>
+                
+               <span>MIZA EQUIPEMENT SAFI BV HASSAN 2 <br>JRIFAT SAFI, MOROCCO</span>
+               <img src="img\placeholder.png">
+            </li>
+          <li>
+            <span><img src="img\telephone.png"></span>
+            <p><a href="tel:212524621160">(+212) 05 24 62 11 60</a><br>
+            <a href="tel:212524621160">(+212) 05 24 62 11 61</a><br>
+            <a href="tel:212524621160">(+212) 05 24 62 11 64</a></p>
+       </li>
+       <li>
+        <span><img src="img\envelope (1).png"></span>
+        <p><a href="mailto:info@mizaequipement.com">info@mizaequipement.com</a></p>
+   </li>
+
+      </ul>
+    </div>
+
+    </div>
+ 
+
+
+</footer>
+<div class="copyrightText">
+    <p>droits d'auteur ©️ 2021 Miza.Tous les droits réservés </p>
+</div>
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+   <a href="#TOP"><img src="img\up-arrow.png " id="up"></a>
+   <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
+   <img src="img/mountain1 (1).png" class="mountain1 translate" data-speed="-0.2" alt="">
+   <img src="img/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
+   <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
+   <img src="img/sky.png" class="sky translate" data-speed="0.5" alt="">
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js\chat.js"></script>
+   <script src="js\doc.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script type="text/javascript" src="vanilla-tilt.js"></script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+        var open =0;
+        function navbar(){
+            if( open ===1){
+            document.getElementById("nou").style.height = "0px";
+            document.getElementById("nou").style.visibility="hidden";
+            document.getElementById("nou").style. opacity= "0";
+            document.getElementById("close").style.visibility="hidden";
+            document.getElementById("close").style. opacity= "0";
+             open =0;
+            }else{
+             document.getElementById("nou").style.height = "100vh";
+            document.getElementById("nou").style.visibility="visible";
+            document.getElementById("nou").style. opacity= "1";
+            document.getElementById("close").style.visibility="visible";
+            document.getElementById("close").style. opacity= "1"; 
+            open=1;
+
+            }
+        }
+</script>
+    
+<script>
+var chat=0;
+function openForm(){
+if( chat ===0){
+document.getElementById("content1").style.display ="block";
+document.getElementById("content1").style. opacity= "1";
+
+document.getElementById("content1").style.transition = "all 1000s";
+ chat=1;
+}else{
+
+  document.getElementById("content1").style.display = "none";
+  document.getElementById("content1").style. opacity= "0";
+
+  document.getElementById("content1").style.transition = "all 1000s";
+  chat=0;
+}}
+</script>
+<script>
+var swiper = new Swiper(".swiper-container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+   loop:true,
+  });
+</script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".ca"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1,
+	});
+</script>
+
+<script>
+    function validation(){
+        var email=document.getElementById("email").value;
+        var text=document.getElementById("text");
+        var  pattern= /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+       
+        document.getElementById("valid").style.display ="none";
+        document.getElementById("invalid").style.display ="none";
+        if(email.match(pattern)){
+
+            document.getElementById("valid").style.display ="block";
+            document.getElementById("invalid").style.display ="none";
+            text.innerHTML ="votre email est valide.";
+            text.style.color="#00ff00";
+        
+         }else{
+            document.getElementById("invalid").style.display ="block";
+            document.getElementById("valid").style.display ="none";
+            text.innerHTML ="votre email est invalide.";
+            text.style.color="red";
+ 
+
+         }if(email===" "){
+            document.getElementById("valid").style.display ="none";
+            document.getElementById("invalid").style.display ="none";
+            text.innerHTML ="";
+            text.style.color="#00ff00";
+         }  
+          
+
+        }
+</script>
+<script>
+    function validationNumber(){
+        var number=document.getElementById("number").value;
+        var text1=document.getElementById("text1");
+        var  pattern=/^(\+\d{1,3}[- ]?)?\d{11}$/;
+       
+  
+        if(number.match(pattern)){
+        
+       
+            text1.innerHTML ="votre telephone est valide.";
+            text1.style.color="#00ff00";}
+         else{
+           
+            text1.innerHTML ="votre telephone est invalide.";
+            text1.style.color="red";
+ 
+
+         }if(email===""){
+    
+            text1.innerHTML =" ";
+            text1.style.color="#00ff00";
+         }  
+        
+        }
+
+</script>
+<script>
+ 
+function merci(){
+  
+    swal({
+  title: "Êtes-vous sur?",
+  text: "une fois enregistré, vous n'aurez pas la possibilité de modifier vos informations!",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    swal("Good job!", "You clicked the button!", "success", {
+  button: "Aww yiss!",
+});
+  } else {
+    swal("Your imaginary file is safe!");
+  }
+});
+   
+}
+</script>
+   
+
+
+<script>
+    function rate(){
+    import React from 'react'
+import swal from '@sweetalert/with-react'
+ 
+const onPick = value => {
+  swal("Thanks for your rating!", `You rated us ${value}/3`, "success")
+}
+ 
+const MoodButton = ({ rating, onClick }) => (
+  <button 
+    data-rating={rating}
+    className="mood-btn" 
+    onClick={() => onClick(rating)}
+  />
+)
+ 
+swal({
+  text: "How was your experience getting help with this issue?",
+  buttons: {
+    cancel: "Close",
+  },
+  content: (
+    <div>
+      <MoodButton 
+        rating={1} 
+        onClick={onPick}
+      />
+      <MoodButton 
+        rating={2} 
+        onClick={onPick}
+      />
+      <MoodButton 
+        rating={3} 
+        onClick={onPick}
+      />
+    </div>
+  )
+})}
+</script>
+<script>
+ 
+
+  
+ $(document).ready(function() {
+    horloge();
+});
+ 
+function horloge() {
+    var d = new Date();
+    var hours = d.getHours();
+    var min = d.getMinutes();
+    var sec = d.getSeconds();
+    var rotheures = (hours * 30) + (min / 2);
+    $("#hr").css("transform","rotate("+rotheures+"deg)");
+    $("#mn").css("transform","rotate("+6*min+"deg)");
+    $("#sc").css("transform","rotate("+6*sec+"deg)");
+    setTimeout(horloge,1000);
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
